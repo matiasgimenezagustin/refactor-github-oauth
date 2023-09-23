@@ -154,8 +154,8 @@ app.use(session({
 }));
 
 passport.use(new GitHubStrategy({
-    clientID: 'ffdb3747ffeb6659b8d0',
-    clientSecret: 'f9403e17f3ec0a2b5b9b9a680b17764f9baf4bfb',
+    clientID: 'd622b73918b3bcb79ebf',
+    clientSecret: 'd59813fa3f960a9f0f5486d1979aecdeb69203a4',
     callbackURL: 'http://localhost:8080/auth/github/callback' 
   },
   (accessToken, refreshToken, profile, done) => {
